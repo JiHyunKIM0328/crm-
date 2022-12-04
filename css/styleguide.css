@@ -1,0 +1,71 @@
+:root { 
+  --alizarin-crimson: #e03339;
+  --bittersweet: #ff6868;
+  --black: #000000;
+  --gray-nurse: #e9e9e9;
+  --heavy-metal: #2b2b2b;
+  --hint-of-red: #f9f9f9;
+  --nobel: #b3b3b3;
+  --ship-gray: #383d49;
+  --star-dust: #9d9d9d;
+  --tulip: #ff898e12;
+  --white: #ffffff;
+ 
+  --font-size-l: 17px;
+  --font-size-m: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 19px;
+  --font-size-xxxl: 23px;
+  --font-size-xxxxl: 25px;
+  --font-size-xxxxxl: 30px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.inter-medium-heavy-metal-16px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-semi-bold-alizarin-crimson-23px {
+  color: var(--alizarin-crimson);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-medium-bittersweet-18px {
+  color: var(--bittersweet);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-ship-gray-23px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-star-dust-19px {
+  color: var(--star-dust);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
